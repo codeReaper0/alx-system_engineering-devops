@@ -1,0 +1,55 @@
+Here is a web stack debugging project issue or an outage that is based on the requirements provided above:-
+personally faced issue
+Issue Summary
+(1)
+Duration: 1 hour, 25 minutes (08:00 AM to 09:25 AM PST)
+Impact: The company's website was down, preventing users from accessing it. 100% of users were affected.
+Root Cause: A memory leak in the Nginx web server caused the server to crash.
+(2)
+Duration: 1 hour, 46 minutes (08:00 PM to 09:4+ PM PST)
+Impact: The company's e-commerce website was down, preventing users from making purchases. 50% of users were affected.
+Root Cause: A misconfiguration in the MySQL database caused the database to become corrupt.
+
+Timeline 
+(1)
+08:00 AM: A monitoring alert is triggered, indicating that the company's website is down.
+08:09 AM: An engineer investigates the issue and determines that the Nginx web server has crashed.
+08:14 AM: The engineer restarts the Nginx web server, but it crashes again after a few minutes.
+08:21 AM: The engineer suspects that a memory leak is causing the Nginx web server to crash.
+08:32 AM: The engineer identifies the memory leak and fixes it.
+08:42 AM: The Nginx web server is restarted and the company's website is restored.
+(2)
+08:00 PM: A monitoring alert is triggered, indicating that the company's e-commerce website is down.
+08:08 PM: An engineer investigates the issue and determines that the MySQL database is down.
+08:12 PM: The engineer restarts the MySQL database, but it fails to start.
+08:19 PM: The engineer suspects that a misconfiguration in the MySQL database is causing the database to fail to start.
+08:28 PM: The engineer identifies the misconfiguration and fixes it.
+08:36 PM: The MySQL database is restarted and the company's e-commerce website is restored.
+
+Root Cause and Resolution
+The root cause of the issue was a memory leak in the Nginx web server. This memory leak caused the Nginx web server to use up all of its memory and crash. The issue was resolved by fixing the memory leak in the Nginx web server code.
+
+Corrective and Preventative Measures
+To prevent this issue from happening again, the following corrective and preventative measures will be taken:
+(1)	The Nginx web server code will be patched to fix the memory leak.
+	A monitoring system will be implemented to detect memory leaks in the Nginx web server.
+	The Nginx web server will be configured with a lower memory limit to prevent it from crashing due to memory exhaustion.
+(2)	The MySQL database configuration will be reviewed and updated to ensure that it is correct.
+	A monitoring system will be implemented to detect misconfigurations in the MySQL database.
+	A backup of the MySQL database will be created to restore the database in the event of a corruption.
+
+Tasks to Address the Issue
+The following tasks will be completed to address the issue:
+(1)	Patch the Nginx web server code to fix the memory leak.	
+	Implement a monitoring system to detect memory leaks in the Nginx web server.
+	Configure the Nginx web server with a lower memory limit.
+(2)	Review and update the MySQL database configuration.
+	Implement a monitoring system to detect misconfigurations in the MySQL database.
+	Create a backup of the MySQL database.
+
+
+By:- Tella Boluwatife
+boluwatifetella@gmail.com
+https://github.com/codeReaper0/
+https://tellaboluwatife.vercel.app/
+https://www.linkedin.com/in/tella-boluwatife-88aabb19a/
